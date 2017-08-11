@@ -9,15 +9,17 @@ require 'model.php';
 class Controller extends System
 {
 	public
-		$page;
+		$page,
+		$method;
 
 	public function __construct($page)
 	{
 		$this->page = $page;
+		$this->main();
 	}
 
 	public function main()
 	{
-		echo $this->page;
+		view($this->page);
 	}
 }

@@ -1,0 +1,113 @@
+@charset 'UTF-8';
+
+/* Общие стили (фреймворк) */
+
+.test-b{
+	border: 2px solid black;
+}
+
+
+/* border */
+
+
+.border-1px-black{
+	border: 1px solid black;
+}
+
+.border-2px-black{
+	border: 2px solid black;
+}
+
+.border-3px-black{
+	border: 3px solid black;
+}
+
+.border-1px-silver{
+	border: 1px solid silver;
+}
+
+.border-2px-silver{
+	border: 2px solid silver;
+}
+
+.border-3px-silver{
+	border: 3px solid silver;
+}
+
+
+/* padding/margin */
+
+
+.pad-0-5{
+	padding: 0.5%;
+}
+
+.pad-1{
+	padding: 1%;
+}
+
+.pad-1-5{
+	padding: 1.5%;
+}
+
+.pad-2{
+	padding: 2%;
+}
+
+.pad-2-5{
+	padding: 2.5%;
+}
+
+
+
+.mar-0-5{
+	margin: 0.5%;
+}
+
+.mar-1{
+	margin: 1%;
+}
+
+.mar-1-5{
+	margin: 1.5%;
+}
+
+.mar-2{
+	margin: 2%;
+}
+
+.mar-2-5{
+	margin: 2.5%;
+}
+
+.mar-min{
+	margin: 0.2%;
+}
+
+.mar-top-0-5{
+	margin-top: 0.5%;
+}
+
+.right-1{
+	padding-left: 10%; 
+}
+
+.j{
+	text-align: justify;
+}
+
+.down-0-5{
+	margin-bottom: 0.5%;
+}
+
+.down-1{
+	margin-bottom: 1%;
+}
+
+
+
+/* Обтекание/выравнивание */
+
+.center { 
+	text-align: center;
+}	
